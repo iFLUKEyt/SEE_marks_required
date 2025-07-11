@@ -1,0 +1,76 @@
+body {
+  font-family: Arial, sans-serif;
+  background: white;
+  padding: 20px;
+}
+
+.container {
+  max-width: 750px;
+  margin: auto;
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px black;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.form-group {
+  margin: 12px 0;
+}
+
+label {
+  font-weight: bold;
+}
+
+input, select {
+  padding: 8px;
+  width: 100%;
+  margin-top: 4px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+button {
+  width: 100%;
+  margin-top: 16px;
+  padding: 10px;
+  font-weight: bold;
+  background: royalblue;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background: blue;
+}
+
+table {
+  width: 100%;
+  margin-top: 25px;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 12px;
+  text-align: center;
+  border: 1px solid lightgray;
+}
+
+th {
+  background-color: white;
+}
+
+.table-container {
+  overflow-x: auto;
+  margin-top: 20px;
+}
+
+table {
+  min-width: 700px; 
+}

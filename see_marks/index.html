@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="height=device-height, initial-scale=1.0">
+    <title>SEE Marks Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>SEE Marks Required Calculator</h1>
+
+    <div class="form-group">
+      <label>Subject:</label>
+      <input type="text" id="subject" placeholder="For your reference">
+    </div>
+
+    <div class="form-group">
+      <label>Test 1 Marks:</label>
+      <input type="number" id="tt1" placeholder="Out of 25">
+    </div>
+
+    <div class="form-group">
+      <label>Test 2 Marks:</label>
+      <input type="number" id="tt2" placeholder="Out of 25">
+    </div>
+
+    <div class="form-group">
+      <label>Assignment Marks:</label>
+      <input type="number" id="assignment" placeholder="eg: 18">
+    </div>
+
+    <div class="form-group">
+      <label>Total Assignment Marks:</label>
+      <select id="totalAssignment">
+        <option value="20">20</option>
+        <option value="25">25</option>
+        <option value="30">30</option>
+        <option value="50">50</option>
+      </select>
+    </div>
+
+    <button onclick="calculate()">Calculate</button>
+
+    <h2>Results Table</h2>
+    <div class="table-container">
+     <table>
+      <thead>
+       <tr>
+        <th>Subject</th>
+        <th>CE Marks (out of 60)</th>
+        <th>SEE for 10 CGPA</th>
+        <th>SEE for 9 CGPA</th>
+        <th>SEE for 8 CGPA</th>
+        <th>SEE for 7 CGPA</th>
+       </tr>
+      </thead>
+     <tbody id="resultsTable"></tbody>
+     </table>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
